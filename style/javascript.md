@@ -132,3 +132,9 @@ var HappySurvey = require("../missions-package/happy-survey.jsx");
 var UserMission = require("../missions-package/user-mission.js");
 var cookieStoreRenderer = require("../shared-package/cookie-store.handlebars");
 ```
+
+#### Comments and Documentation
+
+### Inline comments
+
+Inline comments should be the `//` kind not `/* */` kind.
