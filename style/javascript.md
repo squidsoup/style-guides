@@ -22,7 +22,7 @@ methodNamesLikeThis
 variableNamesLikeThis
 parameterNamesLikeThis
 propertyNamesLikeThis
-SYMBOLIC_CONSTANTS_LIKE_THIS // TODO refine for const
+SYMBOLIC_CONSTANTS_LIKE_THIS // TODO (stephen-stewart) refine for const
 ```
 
 When naming variables and properties referring to jQuery element
