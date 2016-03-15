@@ -74,21 +74,23 @@ Braces should always be used on blocks.
 multiple lines, with the opening brace on the same line.
 
 No:
-  ``js
+
+```js
 if (true)
   blah();
-``
+```
 
 Yes:
-``js
+
+```js
 if (true) {
   blah();
 }
-``
+```
 
 `else/else if/catch` should go on the same line as the brace:
 
-``js
+```js
 if (blah) {
   baz();
 } else {
@@ -105,7 +107,7 @@ Imports should be sorted lexicographically (as per unix `sort`).
 
 
 No:
-``js
+```js
 var _ = require("underscore");
 var $ = require("jquery");
 var APIActionResults = require("../shared-package/api-action-results.js");
@@ -115,10 +117,10 @@ var HappySurvey = require("../missions-package/happy-survey.jsx");
 var DashboardActions = require('./datastores/dashboard-actions.js');
 var React = require("react");
 var UserMission = require("../missions-package/user-mission.js");
-``
+```
 
 Yes:
-``js
+```js
 var $ = require("jquery");
 var React = require("react");
 var _ = require("underscore");
