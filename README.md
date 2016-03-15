@@ -1,4 +1,4 @@
-# Canonical Online Services Codign Style Guides
+# Canonical Online Services Coding Style Guides
 
 ## Language Style Guides
 
