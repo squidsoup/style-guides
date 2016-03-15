@@ -57,7 +57,7 @@ var z = y._privateMember;     // NOT OK!
 
 #### File names
 
-``
+```
 file-names-like-this.js
 template-names-like-this.handlebars
 ```
