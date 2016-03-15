@@ -1,2 +1,7 @@
-# style-guides
-Style guides for the organisation
+# Canonical Online Services Codign Style Guides
+
+## Language Style Guides
+
+- [JavaScript](/style/javascript.md)
+- [React](/style/react.md)
+- [CSS](/style/css.md)
