@@ -16,31 +16,31 @@ This guide is adapted from the Khan Academy style guide.
 
 #### Naming
 
-``js
+```js
 ClassNamesLikeThis
 methodNamesLikeThis
 variableNamesLikeThis
 parameterNamesLikeThis
 propertyNamesLikeThis
 SYMBOLIC_CONSTANTS_LIKE_THIS
-``
+```
 
 When naming variables and properties referring to jQuery element
 objects, prefix the name with `$`:
 
-``js
+```js
 function doSomethingFancy(selector) {
   var $elements = $(selector);
   ...
 }
-``
+```
 
 #### Naming private methods and properties
 
 Private methods and properties (in files, classes, and namespaces)
 should be named with a leading underscore.
 
-``js
+```js
 function _PrivateClass() {
   // should not be instantiated outside of this file
 }
@@ -53,7 +53,7 @@ function PublicClass(param) {
 var x = new _PrivateClass();  // OK - we’re in the same file.
 var y = new PublicClass();    // OK
 var z = y._privateMember;     // NOT OK!
-``
+```
 
 #### File names
 
